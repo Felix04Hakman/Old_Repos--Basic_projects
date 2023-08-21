@@ -1,0 +1,116 @@
+body{
+    background-color: #1b043f;
+   margin-top:20px;
+   margin-bottom:20px;
+}
+form{
+    background-color:#234c57;
+    color:#1b043f;
+    text-align: center;
+    margin-top:5px;
+    padding-top: 5px;
+    margin: auto;
+    width:550px;
+    height:280px;
+    margin-right: auto;
+    -webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+    -moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+    box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+}
+input[type=text]{
+    width: 300px;
+    background-color:#8e8e8f;
+    color:rgb(19, 16, 16);
+    border:2px solid #ddd;
+    border-radius: 5px;
+    font-size:15px;
+    padding:5px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top:10px;    
+}
+input[type=password]{
+    width: 300px;
+    background-color:#8e8e8f;
+    color:rgb(19, 16, 16);
+    border:2px solid #ddd;
+    border-radius: 5px;
+    font-size:15px;
+    padding:5px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top:10px;
+}
+input [type=text]:focus,
+input[type=password]:focus{
+    -webkit-box-shadow: 3px 3px 30px 5px #234c57 ;
+    -moz-box-shadow: 3px 3px 30px 5px #234c57 ;
+    box-shadow: 2px 2px 2px 3px  #234c57 ;
+    border: 2px solid #a5cda5;
+    background-color:#faf0f0;
+    color:#428452;
+}
+input[type=submit]{
+    background-color: #36b03c;
+    width: 200px;
+    font-size:15px;
+    color:white;
+    padding:15px 10px;
+    margin-top: 10px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: none;
+    margin-top: 15px;
+}
+input[type=submit]:focus{
+    margin-right: auto;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(204,204,204,0.9);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(204,204,204,0.9);
+    box-shadow: 0px 0px 10px 5px rgba(204,204,204,0.9);
+}
+input[type=submit]:hover{
+    background-color: #37b93d;
+}
+input::-moz-placeholder{
+    color:rgb(29, 26, 26);
+}
+input:focus::-moz-placeholder{
+    color:#165716;
+}
+#box{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #8e8e8f;
+    font-size:20px;
+    width: 400px;
+    height: 170px;
+margin-top: auto;
+margin-bottom: auto;
+margin-right: auto;
+margin-left:auto;
+border:4px solid #861709;
+}
+button{
+    font-size:15px;  
+ border-radius: 5px;
+ cursor: pointer;
+letter-spacing: 2px;
+}
+button a{
+ text-decoration: none;
+}
+p{
+background-color:#234c57;
+margin-top:5px;
+text-align: center;
+border: 1px dotted;
+}
+from#recapcha{
+    text-align: center;
+}
+input.recapcha:submit{
+    background-color: #6e41b8;
+}

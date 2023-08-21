@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1625492973 source:c:\users\praktyka\documents\c++projekty\liczbylosowe\main.cpp
+	<iostream>
+	<cstdlib>
+	<time.h>
+
